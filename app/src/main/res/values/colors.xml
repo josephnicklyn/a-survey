@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="borderColor">#a8a8aa</color>
+
+    <color name="toolbar_icon_tint">#ffeaeaf2</color>
+    <color name="toolbar_icon_tint_loud">#ffffb044</color>
+    <color name="toolbar_help_icon_tint">#ffffaa00</color>
+    <color name="toolbar_text_color">#fff4f4ff</color>
+
+
+</resources>

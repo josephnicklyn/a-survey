@@ -1,0 +1,164 @@
+{
+  "title":"ERSA Emergency Room Survey",
+  "questions":
+  [
+    {
+      "id": "q0",
+      "value": "Multilined Edit",
+      "type":"text",
+      "input_type":"multiline",
+      "lines":"4"
+    },
+    {
+      "id": "q1",
+      "value": "Select a value?",
+      "title_left":"ON THE LEFT",
+      "title_right":"ON THE RIGHT",
+      "type":"range_select",
+      "contents": [
+        {"value":"0"},
+        {"value":"1"},
+        {"value":"2"},
+        {"value":"3"},
+        {"value":"4"},
+        {"value":"5"},
+        {"value":"6"},
+        {"value":"7"},
+        {"value":"8"},
+        {"value":"9"},
+        {"value":"10"}
+      ]
+    },
+    {
+      "id": "q2",
+      "value": "Overall, how satisfied or dissatisfied are you with our company?",
+      "type":"single_choice",
+      "contents": [
+        [
+          {"value": "Very satisfied", "responce_item":"q2.0"},
+          {"value": "Somewhat satisfied", "responce_item":"q2.1"},
+          {"value": "Neither satisfied nor dissatisfied", "responce_item":"q2.2"}
+        ],
+        [
+          {"value": "Somewhat dissatisfied", "responce_item":"q2.3"},
+          {"value": "Very dissatisfied", "responce_item":"q2.4"}
+        ]
+      ]
+    },
+    {
+      "id": "q3",
+      "value": "Which of the following words would you use to describe our products? Select all that apply. (select upto 3)",
+      "type":"multiple_choice",
+      "max_select":"3",
+      "contents": [
+        [
+          {"value": "Reliable", "toggle_group":"A", "responce_item":"q3.0"},
+          {"value": "High quality", "toggle_group":"B", "responce_item":"q3.1"},
+          {"value": "Useful", "responce_item":"q3.2"},
+          {"value": "Unique", "responce_item":"q3.3"},
+          {"value": "Good value for money", "toggle_group":"C", "responce_item":"q3.4"}
+        ],
+        [
+          {"value": "Overpriced", "toggle_group":"C", "responce_item":"q3.5"},
+          {"value": "Impractical", "responce_item":"q3.6"},
+          {"value": "Ineffective", "responce_item":"q3.7"},
+          {"value": "Poor quality", "toggle_group":"B", "responce_item":"q3.8"},
+          {"value": "Unreliable", "toggle_group":"A", "responce_item":"q3.9"}
+        ]
+      ]
+    },
+    {
+      "id": "q4",
+      "value": "How well do our products meet your needs?",
+      "type":"single_choice",
+      "contents": [
+        [
+          {"value": "Extremely well", "responce_item":"q4.0"},
+          {"value": "High quality", "responce_item":"q4.1"},
+          {"value": "Somewhat well", "responce_item":"q4.2"}
+        ],
+        [
+          {"value": "Not so well", "responce_item":"q4.3"},
+          {"value": "Not at all well", "responce_item":"q4.4"}
+        ]
+      ]
+    },
+    {"id": "q5",
+      "value": "How would you rate the quality of the product?",
+      "type":"single_choice",
+      "contents": [
+        [
+          {"value": "Very high quality", "responce_item":"q5.0"},
+          {"value": "High quality", "responce_item":"q5.1"},
+          {"value": "Neither high or low quality", "responce_item":"q5.2"}
+        ],
+        [
+          {"value": "Low quality", "responce_item":"q5.3"},
+          {"value": "Very low quality", "responce_item":"q5.4"}
+        ]
+      ]
+    },
+    {
+      "id": "q6",
+      "value": "How do you rate the following?",
+      "type":"rating_scale",
+      "contents": {
+        "columns": [
+          {"value":"not at all useful"},
+          {"value":"slightly useful"},
+          {"value":"moderately useful"},
+          {"value":"very useful"},
+          {"value":"extremely useful"}
+        ],
+        "rows":[
+          {"value":"Documentation"},
+          {"value":"Knowlege"},
+          {"value":"Advice"}
+
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "value": "password field",
+      "type":"text",
+      "input_type":"password"
+    },
+    {
+      "id": "q8",
+      "value": "plain text field",
+      "type":"text"
+    },
+    {
+      "id": "q9",
+      "value": "date",
+      "type":"text",
+      "hint":"click to select a date",
+      "input_type":"date"
+    },
+    {
+      "id":"q10",
+      "value":"Check applicable symptoms and add additional as needed:",
+      "type":"yes_no",
+      "buttons": [
+        {"value":"yes", "color":"FFA0D8C8"},
+        {"value":"no", "color":"FFDAC8A0"}
+      ],
+      "contents": [
+        [
+          {"value":"Skin"},
+          {"value":"Eyes"},
+          {"value":"Constitutional"},
+          {"value":"Neorological"}
+        ],
+        [
+          {"value":"Chest/Heart"},
+          {"value":"Genitourinary"},
+          {"value":"Throat"},
+          {"value":"Other", "input_type":"multiline"}
+
+        ]
+      ]
+    }
+  ]
+}

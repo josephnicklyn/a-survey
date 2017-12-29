@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Surveys</string>
+
+    <string name="WAS_WRAP_CONTENT">WAS_WRAP_CONTENT</string>
+
+    <string name="TOGGLE_GROUP">TOGGLE_GROUP</string>
+
+    <string name="YES_NO_TOGGLE_STYLE">TOGGLE STYLE</string>
+
+    <string name="JSON_OBJECT">JSON_OBJECT</string>
+
+    <string name="JSON_ITEM_INDEX">JSON_ITEM_INDEX</string>
+
+
+</resources>
